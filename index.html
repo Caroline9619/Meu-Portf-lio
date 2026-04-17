@@ -1,67 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Caroline Silva </title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1> Caroline Silva </h1>
-      <button id="btn-tema">Escuro</button>
-      <nav>
-        <ul>
-          <li> <a href="#sobre">Sobre Mim</a></li>
-          <li> <a href="#projetos">Projetos</a></li>
-          <li> <a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <img src="perfil.jpg" alt="Foto de Caroline Silva">
-             <p style="margin-top: 20px;">
-        Graduada em Licenciatura em Pedagogia(UFPI), Professora Municipal de Ensino Fundamental, Desenvolvedora Web Iniciante, com conhecimentos básicos sobre HTML, CSS e JavaScript. Estou em constante aprendizado e buscando evoluir minhas habilidades criando projetos práticos e funcionais.</p>
-      </section>
-              <section id="projetos">
-        <h2>Meus Projetos</h2>
-          <div class="projetos-container">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Caroline Silva </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1> Caroline Silva </h1>
+    <button id="btn-tema">Escuro</button>
+    <nav>
+      <ul>
+        <li> <a href="#sobre">Sobre Mim</a></li>
+        <li> <a href="#projetos">Projetos</a></li>
+        <li> <a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <img src="perfil.jpg" alt="Foto de Caroline Silva">
+      <p style="margin-top: 20px;">
+        Graduada em Licenciatura em Pedagogia(UFPI), Professora Municipal de Ensino Fundamental, Desenvolvedora Web
+        Iniciante, com conhecimentos básicos sobre HTML, CSS e JavaScript. Estou em constante aprendizado e buscando
+        evoluir minhas habilidades criando projetos práticos e funcionais.</p>
+    </section>
+    <section id="projetos">
+      <h2>Meus Projetos</h2>
+      <div class="projetos-container">
         <article class="card-projeto">
           <h3> Projeto 01- Dados dos Atletas</h3>
-          <p>  Recebe informações dos atletas e exibir a categoria, IMC, média calculada e demais informações capturadas.
+          <p> Recebe informações dos atletas e exibir a categoria, IMC, média calculada e demais informações capturadas.
           </p>
           <a href="https://github.com/Caroline9619/dados-atletas.git" target="_blank"> Ver No GitHub</a>
         </article>
-          <article class="card-projeto">
-            <h3>
-              Projeto 02- Notas dos Atletas</h3>
-            <p>
-               Recebe o nome e as notas de um atleta, calcular a média e apresentar ao usuário.
-            </p>     
-            <a href="https://github.com/Caroline9619/notas-atletas.git" target="_blank"> Ver no GitHub</a>
-          </article>
-            </div>
-      </section>
-    
-          <section id="contato">
-        <h2>Contato</h2>
-        <form id="meu-formulario" action="#" method="post">
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" required>
-          <label for="email">E-mail:</label>
-          <input type="text" id="email" required>
-          <label for="msg">Mensagem: </label>
-          <textarea id="msg" name="msg" placeholder="Digite sua mensagem"></textarea>
-          <button type="submit">Enviar Mensagem </button>
-          </form>
-        
-      </section>
-    </main>
-      <footer>
-        <p>&copy; 2026 - Desenvolvido por Caroline Silva </p>
-      </footer>
-      <script src="script.js"></script>
-  </body>
+        <article class="card-projeto">
+          <h3>
+            Projeto 02- Notas dos Atletas</h3>
+          <p>
+            Recebe o nome e as notas de um atleta, calcular a média e apresentar ao usuário.
+          </p>
+          <a href="https://github.com/Caroline9619/notas-atletas.git" target="_blank"> Ver no GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="meu-formulario" action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" required>
+        <label for="msg">Mensagem: </label>
+        <textarea id="msg" name="msg" placeholder="Digite sua mensagem"></textarea>
+        <button type="submit">Enviar Mensagem </button>
+      </form>
+
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 - Desenvolvido por Caroline Silva </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
